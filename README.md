@@ -3,7 +3,7 @@
 ###
 
 <div align="center">
-  <img height="auto" src="https://i.ibb.co/wr4mPd2k/Captura-de-pantalla-2025-08-20-200032.png"  />
+  <img height="auto" src="https://i.ibb.co/G6s69Jp/vscode.png"  />
 </div>
 
 ###
