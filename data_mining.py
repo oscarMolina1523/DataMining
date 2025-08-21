@@ -16,4 +16,4 @@ clientes={
 }
 
 df=pd.DataFrame(clientes)
-print(df)
+#print(df) # Uncomment to see the DataFrame
