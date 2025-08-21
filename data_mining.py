@@ -29,3 +29,9 @@ plt.title("Distribución de Edad")
 plt.xlabel("Edad")
 plt.ylabel("Frecuencia")
 plt.show()
+
+#data transformation
+scaler=MinMaxScaler()
+df["Ingreso Normalizado"]= scaler.fit_transform(df[["Ingreso Mensual"]])
+df_encoded=pd.get_dummies(df["Genero", "Suscripcion de Newsletter"], drop_first=True)
+df["Grupo Edad"]=pd.cut(df["Edad"], bins=[0, 25, 35, 45, 50], labels=["18-25", "26-35", "36-50"])
