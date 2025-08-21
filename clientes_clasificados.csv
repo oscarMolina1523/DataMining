@@ -1,0 +1,6 @@
+Edad,Historial de Compras,Ingreso Normalizado,Grupo Edad,Genero_Masculino,Suscripcion de Newsletter_Si,Nivel Compras
+22,5,0.0909090909090908,18-25,True,True,Medio
+35,10,0.7727272727272727,26-35,False,False,Medio
+45,3,0.4659090909090908,36-45,True,True,Bajo
+23,2,0.0,18-25,False,False,Bajo
+31,8,1.0000000000000002,26-35,True,True,Medio
