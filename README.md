@@ -19,17 +19,27 @@
 <h2 align="left">📂 Estructura del proyecto</h2>
 
 ###
-
-<p align="left">dataMining/<br>│-- data_mining.py          # Script principal<br>│-- clientes_preprocesados.csv  # Archivo generado con los datos finales<br>│-- README.md               # Documentación del proyecto</p>
-
+```bash
+dataMining/
+│-- data_mining.py          # Script principal
+│-- clientes_preprocesados.csv  # Archivo generado con los datos finales
+│-- README.md               # Documentación del proyecto
+```
 ###
 
 <h2 align="left">🛠️ Instalación Local</h2>
 
 ###
-
-<p align="left"># Clonar el repositorio<br>git clone https://github.com/oscarMolina1523/DataMining.git<br><br># navegar a la carpeta<br>cd dataMining<br><br># Instalar dependencias<br>pip install pandas numpy matplotlib scikit-learn<br><br># Correr el proyecto<br>python data_mining.py</p>
-
+```bash
+# Clonar el repositorio
+git clone https://github.com/oscarMolina1523/DataMining.git
+# navegar a la carpeta
+cd DataMining
+# Instalar dependencias
+pip install pandas numpy matplotlib scikit-learn
+# Correr el proyecto
+python data_mining.py
+```
 ###
 
 <h2 align="left">▶️ Uso</h2>
