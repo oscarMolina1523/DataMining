@@ -17,3 +17,8 @@ clientes={
 
 df=pd.DataFrame(clientes)
 #print(df) # Uncomment to see the DataFrame
+
+#clean the data
+df=df.drop_duplicates(subset="ID")#delete duplicates
+df["Ingreso Mensual"]=df["Ingreso Mensual"].fillna(df["Ingreso Mensual"].mean())#fill missing values with the mean
+df["Genero"]=df["Genero"].replace({"M":"Masculino","male":"Masculino", "F":"Femenino","female":"Femenino"})#unify categories
