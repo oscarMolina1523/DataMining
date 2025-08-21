@@ -35,3 +35,7 @@ scaler=MinMaxScaler()
 df["Ingreso Normalizado"]= scaler.fit_transform(df[["Ingreso Mensual"]])
 df_encoded=pd.get_dummies(df["Genero", "Suscripcion de Newsletter"], drop_first=True)
 df["Grupo Edad"]=pd.cut(df["Edad"], bins=[0, 25, 35, 45, 50], labels=["18-25", "26-35", "36-50"])
+
+#feature selection
+df_final = pd.concat([df.drop(columns=['ID', 'Genero', 'Suscripcion a Newsletter', 'Ingreso Mensual']), df_encoded], axis=1)
+df_final.to_csv("clientes_preprocesados.csv", index=False)
