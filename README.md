@@ -12,7 +12,8 @@
 
 ###
 
-<p align="left">Este proyecto realiza un preprocesamiento de datos de clientes utilizando Python y librerías como pandas, numpy, matplotlib y scikit-learn.<br><br>Las tareas principales incluyen:<br><br>-Limpieza de datos (eliminación de duplicados y tratamiento de valores faltantes).<br><br>-Normalización de variables numéricas.<br><br>-Codificación de variables categóricas.<br><br>-Agrupación de clientes por rangos de edad.<br><br>-Visualización de la distribución de edades.<br><br>-Exportación de los datos procesados a un archivo CSV.</p>
+<p align="left">Este proyecto realiza un preprocesamiento de datos de clientes utilizando Python y librerías como pandas, numpy, matplotlib y scikit-learn.<br><br><h3>Las tareas principales incluyen:</h3>-Limpieza de datos (eliminación de duplicados y tratamiento de valores faltantes).<br><br>-Normalización de variables numéricas.<br><br>-Codificación de variables categóricas.<br><br>-Agrupación de clientes por rangos de edad.<br><br>-Visualización de la distribución de edades.<br><br>-Exportación de los datos procesados a un archivo CSV.</p>
+
 
 ###
 
@@ -45,8 +46,8 @@ python data_mining.py
 <h2 align="left">▶️ Uso</h2>
 
 ###
-
-<p align="left">El programa:<br><br>-Limpia y transforma los datos.<br><br>-Genera una gráfica de la distribución de edad.<br><br>-Exporta el archivo clientes_preprocesados.csv con los datos finales.</p>
+<h3>El programa:<br><br></h3>
+<p align="left">-Limpia y transforma los datos.<br><br>-Genera una gráfica de la distribución de edad.<br><br>-Exporta el archivo clientes_preprocesados.csv con los datos finales.</p>
 
 ###
 
