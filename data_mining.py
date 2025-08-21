@@ -22,3 +22,10 @@ df=pd.DataFrame(clientes)
 df=df.drop_duplicates(subset="ID")#delete duplicates
 df["Ingreso Mensual"]=df["Ingreso Mensual"].fillna(df["Ingreso Mensual"].mean())#fill missing values with the mean
 df["Genero"]=df["Genero"].replace({"M":"Masculino","male":"Masculino", "F":"Femenino","female":"Femenino"})#unify categories
+
+#information visualization
+plt.hist(df["Edad"], bins=5, color='skyblue', edgecolor='black')
+plt.title("Distribución de Edad")
+plt.xlabel("Edad")
+plt.ylabel("Frecuencia")
+plt.show()
