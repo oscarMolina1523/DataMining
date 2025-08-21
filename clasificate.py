@@ -1,22 +1,22 @@
-# Ejercicio de afianzamiento
-# carga de archivo csv
-# visualización con grafico de dispersión
-# clasificacion de clientes por nivel de compras
+# Strengthening exercise
+# CSV file upload
+# Scatter chart visualization
+# Customer classification by purchasing level
 
 import pandas as pd
 import matplotlib.pyplot as plt
 
-# Cargar el archivo CSV
+# Upload the CSV file
 df = pd.read_csv('clientes_preprocesados.csv')
 
-#visualizacion: graficos de dispersion
+#visualization: scatter plots
 plt.scatter(df["Ingreso Normalizado"], df["Historial de Compras"], color="green")
 plt.xlabel("Ingreso Normalizado")
 plt.ylabel("Historial de Compras")
 plt.title("Relacion entre ingreso y compras")
 plt.show()
 
-#clasificacion por nivel de compras
+#classification by purchasing level
 def clasificar(compras):
     if compras > 10:
         return "Alto"
@@ -27,5 +27,5 @@ def clasificar(compras):
 
 df["Nivel Compras"]= df["Historial de Compras"].apply(clasificar)
 
-#Guardar nuevo archivo
+#Save new file
 df.to_csv("clientes_clasificados.csv", index=False)
